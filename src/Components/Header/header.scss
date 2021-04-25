@@ -1,0 +1,66 @@
+.wraper-header{
+    nav{
+        background-color: #eee;
+        padding: 0 20px;
+    }
+    a{
+        color: #000; //TODO Retirar
+    }
+    ul li{
+        padding-left: 10px;
+        a{
+            color: #000;
+        }
+        .btn-alert{
+            background-color: #eee;
+            border: 0;
+            cursor: pointer;
+        }
+        .circle-alert{
+            position: absolute;
+            top: 9px;
+            border: 1px solid #FFF;
+            right: 34px;
+            font-size: 9px;
+            background: #f44336;
+            color: #FFFFFF;
+            min-width: 20px;
+            padding: 0px 5px;
+            height: 20px;
+            border-radius: 10px;
+            text-align: center;
+            line-height: 19px;
+            display: block;
+
+            
+        }
+    }
+    ul{
+        .search{
+            .input-field{
+                .validate{
+                    border-bottom: 1px solid #8d8b8b;
+                }
+            }
+            
+            .btn-search{
+                height: 41px;
+                min-width: 41px;
+                width: 41px;
+                padding: 0;
+                overflow: hidden;
+                position: relative;
+                line-height: 41px;
+                position: absolute;
+                left: 100px;
+                top: 18px;
+            }
+            i{
+                font-size: 15px;
+                margin-top: -5px;
+            }
+            
+        }
+    }
+
+}
